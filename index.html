@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Background Slider</title>
+  </head>
+  <body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+        <title>Circular Text Path</title>
+        <defs>
+          <path id="textcircle" d="M250,400
+                       a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)" />
+        </defs>
+        <g class="textcircle">
+          <text textLength="940">
+            <textPath 
+                      xlink:href="#textcircle" 
+                      aria-label="CSS & SVG are awesome" 
+                      textLength="940">
+              CSS &amp; SVG are awesome | CSS &amp; SVG are awesome |&#160;
+            </textPath>
+          </text>
+        </g>
+      </svg>
+  </body>
+</html>
